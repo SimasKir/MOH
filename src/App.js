@@ -5,9 +5,8 @@ import TextBox from './components/atoms/home/text/textBox';
 function App() {
   return (
     <div className="App">
-      yooooo
-      <TextBox text="yolo"/>
-      < TextBox text = 'jim' / >
+      <TextBox text="yolo" textStyle='Parisienne' textSize='60px'/>
+      < TextBox text = 'jim' textStyle='Roboto' textSize='20px'/ >
     </div>
   );
 }
