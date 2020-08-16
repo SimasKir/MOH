@@ -1,0 +1,19 @@
+.about_us {
+    height: auto;
+    position: relative;
+    &_intro {
+        width: 100%;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+    &_form {
+        width: 100%;
+        height: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

@@ -1,0 +1,22 @@
+@import '../../../../style/variables.module.scss';
+
+.contact_button {
+    height: 50px;
+    width: 250px;
+    background-color: transparent;
+    z-index: 1;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-bottom: 25px;
+    margin-left: 50px;
+    border: 2px solid $accent;
+    font-family: 'Parisienne';
+    font-size: 30px;
+    transition: .5s width ease-out;
+    &:hover {
+        transition: .5s width ease-out;
+        border: 2px solid darken($accent, 15%);
+        background-color: $white;
+    }
+}

@@ -1,0 +1,20 @@
+@import '../../../../style/variables.module.scss';
+
+.textWithDeco {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    &::before {
+        content: '';
+        background-color: $accent;
+        width: 30%;
+        height: 25px;
+        position: absolute;
+        left: -10px;
+        top: 50%;
+        z-index: -1;
+        transition: .5s ease-in-out;
+    }
+}

@@ -1,0 +1,42 @@
+@import '../../../../style/variables.module.scss';
+
+.down_arrow {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    &_button {
+        height: 50px;
+        width: 50px;
+        background-color: $primary;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid $accent;
+        z-index: 1;
+        transition: .5s all ease-out;
+    }
+    &_icon {
+        color: darken($accent, 15%);
+    }
+    &_decor {
+        height: 2px;
+        width: 800px;
+        position: absolute;
+        top: 50%;
+        background-color: $accent;
+        transition: .5s all ease-out;
+    }
+    &:hover > .down_arrow_decor {
+        width: 0;
+        transition: .5s width ease-out;
+    }
+    &:hover > .down_arrow_button {
+        background-color: $white;
+        border: 2px solid darken($accent, 15%);
+         transition: .5s all ease-out;
+    }
+}

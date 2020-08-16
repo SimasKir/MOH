@@ -1,0 +1,17 @@
+.about_image {
+    width: 350px;
+    height: 350px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    margin: 25px 25px 25px 0;
+    z-index: 0;
+
+    &_import {
+        height: 400px;
+    }
+}

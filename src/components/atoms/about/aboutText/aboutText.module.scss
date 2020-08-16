@@ -1,0 +1,20 @@
+@import '../../../../style/variables.module.scss';
+
+.about_text {
+    box-sizing: border-box;
+    height: 300px;
+    width: 600px;
+    background-color: $white;
+    z-index: 1;
+    font-size: 20px;
+    font-family: 'Roboto';
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 200px;
+    padding: 20px;
+    position: absolute;
+    left: 0;
+    margin-left: 25px;
+}

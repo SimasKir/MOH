@@ -1,0 +1,10 @@
+@import '../../../style/variables.module.scss';
+
+.about_template {
+    width: 950px;
+    margin: 0 auto;
+    position: relative;
+    background-color: $primary;
+    height: 100%;
+    transform: translateY(-80px);
+}
