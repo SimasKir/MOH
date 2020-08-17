@@ -8,3 +8,9 @@
     height: 100%;
     transform: translateY(-80px);
 }
+
+@media (max-width: 950px) {
+    .about_template {
+        width: 100%;
+    }
+}

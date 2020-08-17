@@ -8,3 +8,9 @@
     position: absolute;
     top: 0;
 }
+
+@media (max-width: 690px) {
+    .button_group {
+        flex-direction: column;
+    }
+}

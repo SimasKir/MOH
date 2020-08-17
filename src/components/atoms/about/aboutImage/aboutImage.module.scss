@@ -15,3 +15,9 @@
         height: 400px;
     }
 }
+
+@media (max-width: 950px) {
+    .about_image {
+        display: none;
+    }
+}

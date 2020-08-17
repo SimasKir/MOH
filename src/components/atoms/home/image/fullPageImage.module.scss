@@ -19,8 +19,17 @@
     transform: translateY(-350px);
 }
 
-@media (max-width: 944px) {
+@media (max-width: 950px) {
     .imageImport {
         transform: translate(0);
+    }
+}
+
+@media (max-width: 420px) {
+    .imageImport {
+        width: auto;
+        height: 100vh;
+        object-fit: cover;
+        overflow: hidden;
     }
 }

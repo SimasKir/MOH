@@ -20,3 +20,30 @@
         width: calc(100% + 20px);
     }
 }
+
+@media (max-width: 950px) {
+    .main_button {
+        width: 250px;
+        height: 250px;
+    }
+}
+@media (max-width: 780px) {
+    .main_button {
+        width: 220px;
+        height: 220px;
+    }
+}
+
+@media (max-width: 600px) {
+    .main_button {
+        width: 220px;
+        height: 150px;
+    }
+}
+
+@media (max-width: 450px) {
+    .main_button {
+        width: 220px;
+        height: 120px;
+    }
+}

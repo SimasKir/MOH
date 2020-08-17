@@ -18,3 +18,15 @@
     left: 0;
     margin-left: 25px;
 }
+
+@media (max-width: 950px) {
+    .about_text {
+        width: calc(100% - 50px);
+        font-size: 20px;
+        margin-right: 200px;
+        padding: 20px;
+        position: absolute;
+        left: 0;
+        margin: 25px;
+    }
+}

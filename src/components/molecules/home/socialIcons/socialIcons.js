@@ -10,13 +10,19 @@ export const SocialIcons = (props) => {
     return (
         <div className={classes.social_icons}>
             <SocialIcon>
-                <Instagram/>
+                <a href='https://www.instagram.com/mateofhonour/'>
+                    <Instagram/>
+                </a>
             </SocialIcon>
             <SocialIcon>
-                <Facebook/>
+                <a href='https://www.facebook.com'>
+                    <Facebook/>
+                </a>
             </SocialIcon>
             <SocialIcon>
-                <Twitter/>
+                <a href='https://www.twitter.com'>
+                    <Twitter/>
+                </a>
             </SocialIcon>
         </div>  
     )

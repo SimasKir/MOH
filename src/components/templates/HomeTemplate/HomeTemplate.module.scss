@@ -4,3 +4,9 @@
     height: 100vh;
     position: relative;
 }
+
+@media (max-width: 950px) {
+    .home_template {
+        width: 100%;
+    }
+}

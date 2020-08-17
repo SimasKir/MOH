@@ -8,7 +8,9 @@ export const DownArrow = (props) => {
         <div className={classes.down_arrow}>
             <div className={classes.down_arrow_decor}></div>
             <button className={classes.down_arrow_button}>
-                <ArrowDropDownIcon fontSize="large" className={classes.down_arrow_icon}/>
+                <a href='#about'>
+                    <ArrowDropDownIcon fontSize="large" className={classes.down_arrow_icon}/>
+                </a>
             </button>
             
         </div>  

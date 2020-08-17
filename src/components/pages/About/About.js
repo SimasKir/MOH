@@ -4,7 +4,7 @@ import AboutTemplate from '../../templates/AboutTemplate/AboutTemplate';
 
 export const About = (props) => {
     return (
-        <div className={classes.about}>
+        <div className={classes.about} id='about'>
             <AboutTemplate/>
         </div>
     )
